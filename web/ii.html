@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="img/12.jpeg" alt="logo">
+            </div>
+            <li><a href="index.html">HOME</a></li>
+          
+            <li><a href="ii.html">SEARCH</a></li>
+            
+            <li><a href="dentist.html">HOSPITAL</a></li>
+            <li><a href="dd.html">DENTAL CARE</a></li>
+            <li><a href="d3.html">PATHOLOGY</a></li>
+            <li><a href="https://forms.gle/CEsxBrgLjb7nRiry7">GET APPOINTMNET</a></li>
+            <li><a href="https://forms.gle/qi5rcioGKkS7WWxS8">WELLROOM FORM</a></li>
+            <li><a href="https://forms.gle/BhCbsxroauEbqAGS7">QUERY</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+
+        </ul>
+        
+    </nav>
+    
+    
+        </div>
+    </div>
+
+
+
+
+    <script src="resp.js"></script>
+    <script>
+        const searchs=()=>{
+            let filter= document.getElementById('search').value.toUpperCase();
+            let ul = document.getElementById('myUL');
+            let li = ul.getElementsByTagName('li');
+            for(var i=0; i<li.length; i++){
+                let a = li[i].getElementsByTagName('a')[0];
+                let textValue = a.textContent || a.innerHTML;
+                if(textValue.toUpperCase().indexOf(filter) > -1){
+                    li[i].style.display =' ';
+                }else{
+                    li[i].style.display = 'none'
+                }
+            }
+        }
+        
+    
+    </script>
+    <input id="searchbar" onkeyup="search_animal()" type="text"
+
+    name="search" placeholder="Search symtoms"> 
+            
+    
+<ul id='list'> 
+
+
+   
+ 
+
+    <li class="animals"><a href="app.html">malaria</a></li> 
+
+    <li class="animals">measles</li> 
+
+    <li class="animals">tooth decay</li> 
+
+    <li class="animals">yellow fever</li> 
+
+    <li class="animals">common cold</li> 
+
+    <li class="animals"><a href="cough.html">cough</a></li> 
+
+    <li class="animals">kidney stone</li> 
+
+    <li class="animals">diarrhoea</li> 
+
+    <li class="animals">Diabetes</li> 
+
+    <li class="animals">Eye cancer</li> 
+    
+    <li class="animals"><a href="index2.html">Hiv aids</a></li> 
+
+    <li class="animals">flu</li> 
+
+    <li class="animals">Heart failure</li> 
+
+    
+    <li class="animals">asthma</li>
+
+    <li class="animals">hearing loss</li>
+
+</ul>
+<script src="./resp.js"></script>
+<a href="ii.html">hi</a>
+</body>
+</html>
